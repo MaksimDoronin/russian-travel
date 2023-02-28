@@ -11,6 +11,7 @@
   font-family: 'Inter Bold';
   font-style: normal;
   font-weight: 700;
+  font-display: swap;
   src: url(../Inter/Inter-Bold.woff2) format("woff2"),
        url(../Inter/Inter-Bold.woff) format("woff");
 }

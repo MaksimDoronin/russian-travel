@@ -1,8 +1,6 @@
 .page {
-  width: 1279px;
+  max-width: 1280px;
   font-family: 'Inter', Arial, sans-serif;
-  padding: 28px 48px 24px;
-  margin: o auto;
+  margin: 0 auto;
   background-color: #2a2c2f;
-  box-sizing: border-box;
 }

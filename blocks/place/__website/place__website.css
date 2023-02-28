@@ -1,0 +1,9 @@
+.place__website {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 46px;
+  grid-row: 1;
+  grid-column: 2;
+  align-self: self-end;
+}
