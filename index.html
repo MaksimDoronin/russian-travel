@@ -11,25 +11,22 @@
   </head>
   <body class="page">
     <header class="header">
-      <!--Шапка сайта-->
-      <div class="header__columns">
-        <div class="header__column">
-          <img class="logo" src="./images/__logo.svg" alt="Логотип Россия">
-        </div>
-        <div class="header__column">
-          <a href="#" class="header__lang-link header__lang-link_active">Ru</a>
-          <a href="#" class="header__lang-link">En</a>
-        </div>
+      <div class="header__column">
+        <img class="logo" src="./images/__logo.svg" alt="Логотип Россия">
       </div>
+      <ul class="header__column header__column_margin_bottom">
+        <li><a href="#" class="header__lang-link header__lang-link_active link">Ru</a></li>
+        <li><a href="#" class="header__lang-link link">En</a></li>
+      </ul>
     </header>
     <main class="content">
       <section class="lead">
-        <div class="lead__container">
-          <h1 class="lead__title">Путешествия по&nbsp;России</h1>
-          <h2 class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</h2>
-          <img class="lead__image" src="./images/kalegin-michail-179870-unsplash.jpg" alt="Девушка в вагоне поезда на нижней полке у окна, лежащая на боку и накрытая одеялом.">
-          <p class="lead__caption">ваша полка — верхняя</p>
-        </div>
+        <h1 class="lead__title">Путешествия по&nbsp;России</h1>
+        <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
+        <figure class="figure">
+          <img class="figure__image" src="./images/kalegin-michail-179870-unsplash.jpg" alt="Девушка в вагоне поезда на нижней полке у окна, лежащая на боку и накрытая одеялом.">
+          <figcaption class="figure__caption">ваша полка — верхняя</figcaption>
+        </figure>
       </section>
       <section class="intro">
         <div class="intro__container">
@@ -52,54 +49,52 @@
           </ul>
         </div>
       </section>
-      <div class="photo-grid">
-        <div class="photo-grid__container">
-          <div class="photo-grid__item">
-            <img class="photo-grid__picture" src="./images/train.jpg" alt="Фото из окна поезда">
-          </div>
-          <div class="photo-grid__item">
-            <img class="photo-grid__picture" src="./images/atharva-tulsi-472908-unsplash.jpg" alt="Фото с неба на горы с облаками">
-          </div>
-          <div class="photo-grid__item">
-            <img class="photo-grid__picture" src="./images/tuman.jpg" alt="Собака на стоге сена в тумане">
-          </div>
-          <div class="photo-grid__item">
-            <img class="photo-grid__picture" src="./images/sochi.jpg" alt="Фото с неба на зелёный лес в горах">
-          </div>
-          <div class="photo-grid__item">
-            <img class="photo-grid__picture" src="./images/arisa-chattasa-559627-unsplash.jpg" alt="Фото пляжа на оз.
-            Байкал на фоне горного хребта">
-          </div>
-          <div class="photo-grid__item">
-            <img class="photo-grid__picture" src="./images/baikal.jpg" alt="Фото из окна поезда">
-          </div>
-          <div class="photo-grid__item">
-            <img class="photo-grid__picture" src="./images/elbrus.jpg" alt="Фото горы Эльбрус">
-          </div>
-          <div class="photo-grid__item">
-            <img class="photo-grid__picture" src="./images/stanislav-kondratiev-459423-unsplash.jpg" alt="Фото дорожного
-            знака пешеходный переход на фоне конусообразных бетонных блоков">
-          </div>
-          <div class="photo-grid__item">
-            <img class="photo-grid__picture" src="./images/kamchatka.jpg" alt="Фото горной реки у подножия гор Камчатки">
-          </div>
-          <div class="photo-grid__item">
-            <img class="photo-grid__picture" src="./images/kamchatka2.jpg" alt="Фото вулкана где-то на Камчатке">
-          </div>
-          <div class="photo-grid__item">
-            <img class="photo-grid__picture" src="./images/baikal2.jpg" alt="Фото: отвесная скала огибает побережье оз. Байкал">
-          </div>
-          <div class="photo-grid__item">
-            <img class="photo-grid__picture" src="./images/ergaki.jpg" alt="Фото сверху на туман, устилающий горную местность">
-          </div>
+      <section class="photo-grid">
+        <div class="photo-grid__item">
+          <img class="photo-grid__picture" src="./images/train.jpg" alt="Фото из окна поезда">
         </div>
-      </div>
+        <div class="photo-grid__item">
+          <img class="photo-grid__picture" src="./images/atharva-tulsi-472908-unsplash.jpg" alt="Фото с неба на горы с облаками">
+        </div>
+        <div class="photo-grid__item">
+          <img class="photo-grid__picture" src="./images/tuman.jpg" alt="Собака на стоге сена в тумане">
+        </div>
+        <div class="photo-grid__item">
+          <img class="photo-grid__picture" src="./images/sochi.jpg" alt="Фото с неба на зелёный лес в горах">
+        </div>
+        <div class="photo-grid__item">
+          <img class="photo-grid__picture" src="./images/arisa-chattasa-559627-unsplash.jpg" alt="Фото пляжа на оз.
+          Байкал на фоне горного хребта">
+        </div>
+        <div class="photo-grid__item">
+          <img class="photo-grid__picture" src="./images/baikal.jpg" alt="Фото из окна поезда">
+        </div>
+        <div class="photo-grid__item">
+          <img class="photo-grid__picture" src="./images/elbrus.jpg" alt="Фото горы Эльбрус">
+        </div>
+        <div class="photo-grid__item">
+          <img class="photo-grid__picture" src="./images/stanislav-kondratiev-459423-unsplash.jpg" alt="Фото дорожного
+          знака пешеходный переход на фоне конусообразных бетонных блоков">
+        </div>
+        <div class="photo-grid__item">
+          <img class="photo-grid__picture" src="./images/kamchatka.jpg" alt="Фото горной реки у подножия гор Камчатки">
+        </div>
+        <div class="photo-grid__item">
+          <img class="photo-grid__picture" src="./images/kamchatka2.jpg" alt="Фото вулкана где-то на Камчатке">
+        </div>
+        <div class="photo-grid__item">
+          <img class="photo-grid__picture" src="./images/baikal2.jpg" alt="Фото: отвесная скала огибает побережье оз. Байкал">
+        </div>
+        <div class="photo-grid__item">
+          <img class="photo-grid__picture" src="./images/ergaki.jpg" alt="Фото сверху на туман, устилающий горную местность">
+        </div>
+      </section>
       <section class="places">
-        <div class="place">
+        <article class="place">
           <h2 class="place__title">Куршская коса</h2>
           <img class="place__image" src="./images/nikita-tikhomirov-1153188-unsplash.jpg" alt="">
           <div class="place__website">
-            <h3 class="place__url-heading">URL</h3>
+            <span class="place__url-heading">url</span>
             <a class="place__link link" href="http://park-kosa.ru" target="_blank">park-kosa.ru</a>
           </div>
           <div class="place__paragraph-container">
@@ -112,12 +107,12 @@
               здешних мест исключает суету, окуная в спокойствие природы и запах стального, прохладного моря.
             </p>
           </div>
-        </div>
-        <div class="place">
+        </article>
+        <article class="place">
           <h2 class="place__title">Кольский</h2>
           <img class="place__image" src="./images/m-r-760504-unsplash.jpg" alt="Побережье Баренцева моря зимой">
           <div class="place__website">
-            <h3 class="place__url-heading">URL</h3>
+            <span class="place__url-heading">url</span>
             <a class="place__link link" href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy" target="_blank">
               National Geographic
             </a>
@@ -132,12 +127,12 @@
               с билетом в&nbsp;Мурманск.
             </p>
           </div>
-        </div>
-        <div class="place">
+        </article>
+        <article class="place">
           <h2 class="place__title">Алтай</h2>
           <img class="place__image" src="./images/nail-gilfanov-527808-unsplash.jpg" alt="На перилах веранды дома, расположенного глубоко в лесу, стоит открытый ноутбук ">
           <div class="place__website">
-            <h3 class="place__url-heading">URL</h3>
+            <span class="place__url-heading">url</span>
             <a class="place__link link" href="https://www.youtube.com/watch?v=7ZEsoV7kWAQ" target="_blank">YouTube</a>
           </div>
           <div class="place__paragraph-container">
@@ -152,12 +147,12 @@
               Алтайского края.
             </p>
           </div>
-        </div>
-        <div class="place">
+        </article>
+        <article class="place">
           <h2 class="place__title">Зимний Байкал</h2>
           <img class="place__image" src="./images/sergey-pesterev-1156037-unsplash.jpg" alt="макроснимок толщи льда на поверхности озера, иссечённого трещинами">
           <div class="place__website">
-            <h3 class="place__url-heading">URL</h3>
+            <span class="place__url-heading">url</span>
             <a class="place__link link" href="https://vk.com/baikalmile" target="_blank">https://vk.com/baikalmile</a>
           </div>
           <div class="place__paragraph-container">
@@ -170,12 +165,12 @@
               В марте 2019 года на фестивале «Байкальская миля» был поставлен мировой рекорд — 197.011 км/ч.
             </p>
           </div>
-        </div>
-        <div class="place">
+        </article>
+        <article class="place">
           <h2 class="place__title">Карелия</h2>
           <img class="place__image" src="./images/vladimir-fedotov-652306-unsplash.jpg" alt="Водлозеро среди леса карельских национальных парков">
           <div class="place__website">
-            <h3 class="place__url-heading">URL</h3>
+            <span class="place__url-heading">url</span>
             <a class="place__link link" href="http://vodlozero.ru" target="_blank">http://vodlozero.ru/</a>
           </div>
           <div class="place__paragraph-container">
@@ -187,36 +182,27 @@
               Чтобы все знали, кто тут хозяин.
             </p>
           </div>
-        </div>
+        </article>
       </section>
       <section class="cover">
-        <a class="cover__link" href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank">
-          <div class="cover__container">
-            <div class="cover__overlay link"></div>
-            <h2 class="cover__title">До Байкала «на&nbsp;собаках»</h2>
-            <p class="cover__subtitle">
-              По мотивам учебной темы о Транссибе — путешествие от столицы до
-              Байкала на электричках.
-            </p>
-          </div>
+        <a class="cover__link link" href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank">
+          <h2 class="cover__title">До Байкала «на&nbsp;собаках»</h2>
+          <p class="cover__subtitle">
+            По мотивам учебной темы о Транссибе — путешествие от столицы до
+            Байкала на электричках.
+          </p>
         </a>
       </section>
     </main>
     <footer class="footer">
-      <div class="footer__columns">
-        <div class="footer__column">
-          <nav class="footer__column-links">
-            <a class="footer__column-link link" href="https://yandex.ru/maps" target="_blank">Карты</a>
-            <a class="footer__column-link link" href="https://yandex.ru/pogoda" target="_blank">Погода</a>
-            <a class="footer__column-link link" href="https://rasp.yandex.ru" target="_blank">Расписание</a>
-            <a class="footer__column-link link" href="https://calendar.yandex.ru" target="_blank">Календарь</a>
-            <a class="footer__column-link link" href="https://travel.yandex.ru" target="_blank">Путешествия</a>
-          </nav>
-        </div>
-        <div class="footer__column">
-          <p class="footer__column-copyright">&COPY; 2023 Максим Доронин</p>
-        </div>
-      </div>
+      <ul class="footer__links">
+        <li><a class="footer__link link" href="https://yandex.ru/maps" target="_blank">Карты</a></li>
+        <li><a class="footer__link link" href="https://yandex.ru/pogoda" target="_blank">Погода</a></li>
+        <li><a class="footer__link link" href="https://rasp.yandex.ru" target="_blank">Расписание</a></li>
+        <li><a class="footer__link link" href="https://calendar.yandex.ru" target="_blank">Календарь</a></li>
+        <li><a class="footer__link link" href="https://travel.yandex.ru" target="_blank">Путешествия</a></li>
+      </ul>
+      <p class="footer__copyright">&COPY; 2023 Максим Доронин</p>
     </footer>
   </body>
   </html>

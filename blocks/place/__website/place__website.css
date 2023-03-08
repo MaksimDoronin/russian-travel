@@ -2,13 +2,13 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  min-height: 46px;
+  gap: 12px;
   grid-row: 1;
   grid-column: 2;
   align-self: self-end;
 }
 
-@media screen and (max-width: 320px) {
+@media (max-width: 320px) {
   .place__website {
     align-self: self-start;
     padding: 0 16px;

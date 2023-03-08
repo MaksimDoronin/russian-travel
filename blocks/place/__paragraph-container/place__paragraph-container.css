@@ -6,13 +6,13 @@
   grid-column: 2;
 }
 
-@media screen and (max-width: 768px) {
-   {
+@media (max-width: 768px) {
+  .place__paragraph-container {
     gap: 25px;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media (max-width: 320px) {
   .place__paragraph-container {
     padding: 0 16px;
   }
