@@ -16,3 +16,10 @@
     line-height: 22px;
   }
 }
+
+@media (max-width: 501px) {
+  .cover__subtitle {
+    font-size: 14px;
+    line-height: 16px;
+  }
+}

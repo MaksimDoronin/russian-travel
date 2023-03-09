@@ -21,6 +21,12 @@
   }
 }
 
+@media (max-width: 501px) {
+  .photo-grid {
+    padding: 40px 5px;
+  }
+}
+
 @media (max-width: 320px) {
   .photo-grid {
     padding: 64px 16px;

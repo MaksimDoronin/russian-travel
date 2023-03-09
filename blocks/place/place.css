@@ -21,10 +21,16 @@
   }
 }
 
-@media (width: 320px) {
+@media (max-width: 690px) {
   .place {
     display: flex;
     flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (width: 320px) {
+  .place {
     align-items: self-start;
     gap: 32px;
   }
