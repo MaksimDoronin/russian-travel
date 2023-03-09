@@ -25,13 +25,12 @@
   .place {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: self-start;
   }
 }
 
 @media (width: 320px) {
   .place {
-    align-items: self-start;
     gap: 32px;
   }
 }
